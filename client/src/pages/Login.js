@@ -51,7 +51,7 @@ function Login() {
           requests contact <a href="mailto:support@devopsshack.com">support</a>.
         </div>
         <p>
-          Don't have an account? <Link to="/register">Register</Link>
+          Don't have an account? <Link to="/register">Register me</Link>
         </p>
       </div>
     </div>
