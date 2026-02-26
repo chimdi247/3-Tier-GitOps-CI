@@ -25,7 +25,7 @@ function Login() {
     <div className="login-page">
       <div className="container fade-in">
         <img src={logo} alt="logo" className="logo" />
-        <h2>Login</h2>
+        <h2>Login me</h2>
         {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
           <input
@@ -51,7 +51,7 @@ function Login() {
           requests contact <a href="mailto:support@devopsshack.com">support</a>.
         </div>
         <p>
-          Don't have an account? <Link to="/register">Register us</Link>
+          Don't have an account? <Link to="/register">Register me</Link>
         </p>
       </div>
     </div>
